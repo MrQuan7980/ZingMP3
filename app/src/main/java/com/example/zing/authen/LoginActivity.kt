@@ -6,6 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.musicappmodel.home_music.Main
 import com.example.zing.databinding.ActivityLoginBinding
 import com.example.zing.`object`.Login
 import com.example.zing.viewmodel.LoginViewModel
@@ -85,7 +86,9 @@ class LoginActivity : AppCompatActivity() {
         }
         loginViewModel.success.observe (this) { state ->
             if (state == true) {
-                setMessage("Login Success")
+                val intent = Intent(this, Main::class.java)
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                startActivity(intent)
             }
             progressbar(
                 false,

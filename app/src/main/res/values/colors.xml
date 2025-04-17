@@ -1,0 +1,22 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="blue">#5433eb</color>
+    <color name="gray">#969ba8</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="light_gray1">#EFEBEB</color>
+    <color name="background">#fbfbfb</color>
+    <color name="input">#f2f2f2</color>
+    <color name="red">#B82828</color>
+    <color name="blue_max">#4049a9</color>
+    <color name="color_io">#3c2587</color>
+    <color name="color_io_1">#564583</color>
+    <color name="color_io_2">#050c15</color>
+    <color name="selected_background">#6200EE</color>
+    <color name="lightBlue">#77DADA</color>
+    <color name="darkBlue">#024545</color>
+    <color name="light_blue">#009688</color>
+</resources>
